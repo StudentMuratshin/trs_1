@@ -1,0 +1,6 @@
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/lab1cmake/CMakeFiles/lab1.1.dir
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/lab1cmake/CMakeFiles/lab1.2.dir
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/lab1cmake/CMakeFiles/edit_cache.dir
+C:/Users/PETA4/Desktop/lab1cmake/out/build/x64-debug/lab1cmake/CMakeFiles/rebuild_cache.dir
