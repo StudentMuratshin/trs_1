@@ -212,6 +212,42 @@ build lab1cmake\lab1.4.exe: CXX_EXECUTABLE_LINKER__lab1.2e4_Debug lab1cmake\CMak
   TARGET_IMPLIB = lab1cmake\lab1.4.lib
   TARGET_PDB = lab1cmake\lab1.4.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab1.5
+
+
+#############################################
+# Order-only phony target for lab1.5
+
+build cmake_object_order_depends_target_lab1.5: phony || lab1cmake\CMakeFiles\lab1.5.dir
+
+build lab1cmake\CMakeFiles\lab1.5.dir\lab1.5.cpp.obj: CXX_COMPILER__lab1.2e5_Debug C$:\Users\PETA4\Desktop\3\6_sem\trs\labs\trs_1\lab1cmake\lab1.5.cpp || cmake_object_order_depends_target_lab1.5
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = lab1cmake\CMakeFiles\lab1.5.dir
+  OBJECT_FILE_DIR = lab1cmake\CMakeFiles\lab1.5.dir
+  TARGET_COMPILE_PDB = lab1cmake\CMakeFiles\lab1.5.dir\
+  TARGET_PDB = lab1cmake\lab1.5.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab1.5
+
+
+#############################################
+# Link the executable lab1cmake\lab1.5.exe
+
+build lab1cmake\lab1.5.exe: CXX_EXECUTABLE_LINKER__lab1.2e5_Debug lab1cmake\CMakeFiles\lab1.5.dir\lab1.5.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = lab1cmake\CMakeFiles\lab1.5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = lab1cmake\CMakeFiles\lab1.5.dir\
+  TARGET_FILE = lab1cmake\lab1.5.exe
+  TARGET_IMPLIB = lab1cmake\lab1.5.lib
+  TARGET_PDB = lab1cmake\lab1.5.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -254,6 +290,10 @@ build lab1.4: phony lab1cmake\lab1.4.exe
 
 build lab1.4.exe: phony lab1cmake\lab1.4.exe
 
+build lab1.5: phony lab1cmake\lab1.5.exe
+
+build lab1.5.exe: phony lab1cmake\lab1.5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -269,7 +309,7 @@ build all: phony lab1cmake\all
 #############################################
 # Folder: C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_1/out/build/x64-debug/lab1cmake
 
-build lab1cmake\all: phony lab1cmake\lab1.1.exe lab1cmake\lab1.2.exe lab1cmake\lab1.3.exe lab1cmake\lab1.4.exe
+build lab1cmake\all: phony lab1cmake\lab1.1.exe lab1cmake\lab1.2.exe lab1cmake\lab1.3.exe lab1cmake\lab1.4.exe lab1cmake\lab1.5.exe
 
 # =============================================================================
 # Built-in targets

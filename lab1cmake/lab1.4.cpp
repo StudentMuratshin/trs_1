@@ -35,7 +35,7 @@ int main()
 {
 	ofstream X_4("C:\\Users\\PETA4\\Desktop\\3\\6_sem\\trs\\labs\\trs_1\\out\\X4_out.csv");
 	int a = 0;
-	int b = 2; 
+	int b = 1; 
 	vector<double> N = { 11, 101, 1001, 10001 };
 	for (int j = 0; j < N.size(); j++)
 	{
