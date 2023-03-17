@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/PETA4/Desktop/trs/trs_1/lab1cmake
+# Install script for directory: C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_1/lab1cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/PETA4/Desktop/trs/trs_1/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_1/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

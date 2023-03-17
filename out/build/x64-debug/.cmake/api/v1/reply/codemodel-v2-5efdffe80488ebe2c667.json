@@ -1,0 +1,112 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lab1cmake",
+					"jsonFile" : "directory-lab1cmake-Debug-b829df2beeaf6e351933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lab1cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "lab1cmake",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lab1.1::@458b1d4f534e1fbfcaec",
+					"jsonFile" : "target-lab1.1-Debug-a9da0d37e6b5ca380ef7.json",
+					"name" : "lab1.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lab1.2::@458b1d4f534e1fbfcaec",
+					"jsonFile" : "target-lab1.2-Debug-c64f442df5f4d83402e5.json",
+					"name" : "lab1.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lab1.3::@458b1d4f534e1fbfcaec",
+					"jsonFile" : "target-lab1.3-Debug-f43907d5c6532b6b7da8.json",
+					"name" : "lab1.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lab1.4::@458b1d4f534e1fbfcaec",
+					"jsonFile" : "target-lab1.4-Debug-451ab59ca970b4c751ca.json",
+					"name" : "lab1.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lab1.5::@458b1d4f534e1fbfcaec",
+					"jsonFile" : "target-lab1.5-Debug-50872adb379ad71452a8.json",
+					"name" : "lab1.5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_1/out/build/x64-debug",
+		"source" : "C:/Users/PETA4/Desktop/3/6_sem/trs/labs/trs_1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

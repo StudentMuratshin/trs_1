@@ -41,7 +41,7 @@ double rk4(double p)
             k0 = v_0 + h * (RHS_v(x_0, v_0));
             k1 = v_0 + h * (RHS_v(x_0 + h / 2., v_0 + h * k0 / 2.));
             k2 = v_0 + h * (RHS_v(x_0 + h / 2., v_0 + h * k1 / 2.));
-            k3 = v_0 + h * (RHS_v(x_0 + h, v_0 + h * k0));
+            k3 = v_0 + h * (RHS_v(x_0 + h, v_0 + h * k2));
 
             u_n = (u_0 + (h / 6) * (k0 + 2 * k1 + 2 * k2 + k3));
             v_n = k0;
@@ -99,7 +99,7 @@ int main()
             k0 = v_0 + h * (RHS_v(x_0, v_0));
             k1 = v_0 + h * (RHS_v(x_0 + h / 2., v_0 + h * k0 / 2.));
             k2 = v_0 + h * (RHS_v(x_0 + h / 2., v_0 + h * k1 / 2.));
-            k3 = v_0 + h * (RHS_v(x_0 + h, v_0 + h * k0));
+            k3 = v_0 + h * (RHS_v(x_0 + h, v_0 + h * k2));
 
             u_n = (u_0 + (h / 6) * (k0 + 2 * k1 + 2 * k2 + k3));
             v_n = k0;

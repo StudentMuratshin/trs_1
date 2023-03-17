@@ -70,7 +70,7 @@ int main()
         double v_0, v_n = v_0 = 1;
 
         for (int i = 0; i < n[j]; i++)
-        { 
+        {
             X_3 << i * h << " " << x_n << endl;
             V_3 << i * h << " " << v_n << endl;
             x_n = x_0 + h / 6. * (xk1(v_0) + 2 * xk2(v_0, h) + 2 * xk3(v_0, h) + xk4(v_0, h));
